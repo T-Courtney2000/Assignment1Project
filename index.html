@@ -13,34 +13,133 @@
 
     <body>
         
-  <nav>
+       <nav>
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo right">Logo</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <a href="#!" class="brand-logo right">How To Make A Website</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="left hide-on-med-and-down">
         <li><a href="sass.html">HTML and CSS</a></li>
-        <li><a href="badges.html">Box Model of CSS</a></li>
+        <li><a href="badges.html">Box Model Of CSS</a></li>
         <li><a href="collapsible.html">Fundementals of Scripting Language</a></li>
-        
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
       </ul>
     </div>
   </nav>
         
     <img class="responsive-img" src="assets/headerimag.jpeg.jpeg" max-width="100%" height="auto"/> 
-        
-      
-      
-        
-        
-        <main>
     
+        <main>
+     <div class="col s12 m7">
+    <h2 class="header">How HTML Files Access CSS</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="assets/card1.jpeg.jpeg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p><p style="font-size:20px">
+
+              Html can access the files of CSS within three ways inline internal and external
+
+First let's start with inline CSS, the main benefit of CSS inline is written as attributes of the css such as the (h1) tag. Furthermore the main benefit of inline is that it overrides external and internal css therefore allowing you to place general tags within external or internal and then change or reconsider each one within the inline of CSS, in addition it can be used if a style is applied to a single event of a section.
+              An example of inline css could be ---- (h1 style=”colour:red”)
+
+
+Secondly there is internal CSS, internal css can be used for one single document that has a single style internal styles are located in the 
+(head) part of a html page, this means that any css on the page will inherit the the format of the internal CSS, for example if you set the font colour to red then the entire page will change,the only problem with internal css is that if you use tags such as (h2) you will need to copy the code again for a different page.
+
+An example of internal css can be 
+(head)
+(style)
+(/style)
+(/head)   
+              Then finally there is External CSS, which can have a external style sheet that is applied to all or many pages with this you can change aspects of a website by changing one file on the external file. Furthermore this makes it more easier to track and get changes implemented quicker you can go further with external by changing some of it with inline css  to make changes more precisely.
+ 
+An example of external css is -------(link ref=”stylesheet” href=”style.css”
+              
+          </p>
+        </div>
+        
+        </div>
+      </div>
+         </div>
+          <div class="col s12 m7">
+    <h2 class="header">Box Model Of CSS</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="assets/card2.jpeg.jpeg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p><p style="font-size:20px">
+              The margin is the furthest edge of the box it displays the space between the element and other terms on the page and it is completely transparent, furthermore margins can collapse on each other so that the bottom margin joins up with the top margin of the below element.
+
+
+The border is the term suited for the box surrounding the inner box. The border can be reset 0 so it disappears and the borders edge is the same as the padding edge. Furthermore borders are the main  decoration or style of the webpage and can be used with decorative borders as well.
+
+
+The Padding is the space between the border and the content padding is the same colour as the background colour for the box, furthermore if the padding is set to 0 the padding border will be the same as the content this is similar to the border in the fact it can shrink 
+
+
+The content is what is says on the tin, this is the element of the box this can contain text images or videos it's basically what's displayed inside the box,therefore the most important content/ features normally stays inside this box.  
+</p>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  <div class="col s12 m7">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="assets/card3.jpeg.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p><p style="font-size:20px">
+              Javascript is the main scripting language that coders use it enables web designers to design sites,furthermore this is so easy for the cause JavaScript is an open language meaning anyone can use it without buying a licence.JavaScript allows designers to put dynamic content into their websites and with every Browser these days supporting it ,it puts it out there for the world to enjoy.
+
+Variable: A variable is where something with values can be assigned , therefore it can be declared using ‘Var’ to words or numbers 
+Example-----(script)var num=27 var name=”boii” var sum=num+name (/script)
+
+If and else statements: if statements are to execute some code only when the condition is met or true, else statements are used to execute some code if the condition is true and other code if it's false 
+Example--------IF “I had a drink” ELSE “i'd be thirsty”
+
+Arithmetic operator: these are used to assign values to JavaScript variables, the = you see in most code is a JavaScript assignment operator and is used to assign a value from the right operand as the new operand on the the left operand. Each time you assign values in this way the left operand value is always overwritten with a new value. Furthermore more operations could include the +,-,* and the / . The operand must be css quantities. Moreover, variables whose values is a quantity may also be used as an operand.
+
+FOR and WHILE loops: a for loop is a piece of code which is executed over and over again until it fulfils a preset criteria, for loops will be executed while the count is less than or equal to five. Once the count gets to six the loop will move on to the next statement. Whereas while loops are a repeat of a block of code as long as a specified condition is true. The process continues until the condition becomes false then it ends the loop it can also break if you use a break statement.
+
+Do/while loop: this is a variation of the while loop this loop executes the code block once before checking to see if the condition is true then it will repeat the loop as long as the condition stays true.
+
+Object orientation programming: is the view of objects we want to manipulate rather than the logic required to manipulate them, this can range from objects such as human beings to widgets on a computer desktop.
+
+Event handling: refers to the specific user actions on a web page such as clicking a link or submitting a form, thanks to event handling scripts can be more interactive and are able to perform certain tasks depending on the users.
+
+Javascript function: this is defined with the function keyword followed by function name then brackets, this code will be executed when someone calls upon the function.
+Example---------when a user clicks a button.
+
+Parameter passing: is a method on ways parameters can be transferred between method to another method.
+</p>
+        </div>
+        </div>
+      </div>
+    </div>
+            
+          
+            
+            
         </main>
         
         <footer class="page-footer orange">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Contact Us</h5>
-                <p class="grey-text text-lighten-4">If you nedd anymore help contact us at this email</p>
+                <h5 class="red-text">Contact Us</h5>
+                <p class="grey-text text-lighten-4">If You Need Anymore Help Contact Us At This Email</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
